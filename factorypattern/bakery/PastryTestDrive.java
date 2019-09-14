@@ -18,11 +18,5 @@ public class PastryTestDrive {
 		bakedgood = cookieStore.orderBakedgood("wedding");
 		System.out.println("Thomas ordered a " + bakedgood + "\n");
 
-		bakedgood = cakeStore.orderBakedgood("holiday");
-		System.out.println("Doug ordered a " + bakedgood + "\n");
- 
-		bakedgood = cookieStore.orderBakedgood("holiday");
-		System.out.println("Mike ordered a " + bakedgood + "\n");
-
 	}
 }
